@@ -1,0 +1,12 @@
+{
+  "description": "A scatterplot showing total cost and cost per item.",
+  "Title": "A scatterplot showing total cost and cost per item.",
+  "data": {"url": "https://raw.githubusercontent.com/MelodyRussell37/MelodyRussell37.github.io/main/cardiovascular_system_substances.csv"},
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "total_cost", "type": "quantitative"},
+    "y": {"field": "cost_per_item", "type": "quantitative"}
+
+
+  }
+}
