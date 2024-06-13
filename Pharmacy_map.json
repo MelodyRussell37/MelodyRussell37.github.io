@@ -4,7 +4,11 @@
     "text": "Medicines supply issues affecting the pharmacy",
     "anchor": "start",
     "subtitleFontWeight": "lighter",
-    "subtitle": ["How often are medicines supply chain issues affecting the pharmacy? Weekly or more (%). ", "Data source: CPE", ""]
+    "subtitle": [
+      "How often are medicines supply chain issues affecting the pharmacy? Weekly or more (%). ",
+      "Data source: CPE",
+      ""
+    ]
   },
   "width": 150,
   "height": 200,
@@ -20,18 +24,18 @@
         "data": {
           "values": [
             {"name": "SOUTH WEST (ENGLAND)", "value": 13.75},
-            {"name": "NORTH EAST (ENGLAND)", "value": 8.00},
+            {"name": "NORTH EAST (ENGLAND)", "value": 8},
             {"name": "NORTH WEST (ENGLAND)", "value": 15.4},
             {"name": "YORKSHIRE AND THE HUMBER", "value": 12.65},
             {"name": "EAST MIDLANDS (ENGLAND)", "value": 9.25},
-            {"name": "WEST MIDLANDS (ENGLAND)", "value": 9.90},
-            {"name": "EAST OF ENGLAND", "value": 9.90},
+            {"name": "WEST MIDLANDS (ENGLAND)", "value": 9.9},
+            {"name": "EAST OF ENGLAND", "value": 9.9},
             {"name": "LONDON", "value": 7.55},
             {"name": "SOUTH EAST (ENGLAND)", "value": 13.6}
           ]
         },
         "key": "name",
-                "fields": ["value"],
+        "fields": ["value"]
       }
     }
   ],
