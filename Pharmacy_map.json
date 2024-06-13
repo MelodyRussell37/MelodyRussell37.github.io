@@ -6,8 +6,8 @@
     "subtitleFontWeight": "lighter",
     "subtitle": ["How often are medicines supply chain issues affecting the pharmacy? Weekly or more (%). ", "Data source: CPE", ""]
   },
-  "width": 300,
-  "height": 450,
+  "width": 150,
+  "height": 200,
   "data": {
     "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/nuts1.json",
     "format": {"type": "json", "property": "features"}
