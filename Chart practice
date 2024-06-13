@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text":"Japan Population",
+    "subtitle": ["Source: ECO-API"]
+  },
+
+  "width": 650,
+  "height": 400,
+
+  "data": {"url": "https://api.economicsobservatory.com/jpn/popu?vega"},
+
+  "mark": "line",
+
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative", "title":null}
+  }
+}
